@@ -1,0 +1,128 @@
+.app-container{
+    display: flex;
+    justify-content: center;
+}
+.weather-app-container{
+    background-image:linear-gradient(#03254c,#1167b1,#187bcd,#2a9df4);
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px white;
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 40px;
+}
+@media screen and (min-width:768px){
+    .weather-app-container{
+        background-image:linear-gradient(#03254c,#1167b1,#187bcd,#2a9df4);
+        background-size: cover;
+        height: 100vh;
+        width: 1000vw;
+        display: flex;
+        flex-direction:column;
+        margin-bottom: 40px;
+    }
+    
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+.input-element{
+    height: 30px;
+    width: 260px;
+    border-radius: 40px;
+    padding: 12px;
+    font-family: "Roboto";
+    font-size: 22px;
+    margin: 12px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+.search-icon{
+    height: 53px;
+    width: 53px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+    padding: 12px;
+    margin: 12px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.weatherimage{
+    height: 100px ;
+    width: 100px;
+    margin: 12px;
+    text-align: center;
+}
+.result-element{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weather-name{
+    display: flex;
+    flex-direction: row;
+}
+.humidity-image{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    color: #ffffff;
+}
+.inner-app-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wind-speed{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    color: #ffffff;
+
+}
+.humidity-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: bottom;
+    align-items: center;
+    margin-right: 12px;
+    color: #ffffff;
+    margin: 5px;
+}
+.humidity{
+    height: 30px;
+    width: 30px;
+}
+.humidity-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.para{
+    font-family: "Roboto";
+    font-size: 22px;
+    padding: auto;
+}
+.error-container{
+    text-align: center;
+    color: red;
+    font-size: 22px;
+    font-family: "Roboto";
+}
